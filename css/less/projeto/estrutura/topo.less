@@ -1,0 +1,211 @@
+/*
+ * Menu mobile
+ */
+ .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 15px;
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #2b2b2b;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    font-size: 60px;
+}
+
+.logomenu {
+	padding: 53px 0 0 25px;
+    position: absolute;
+
+	img { border-radius: 50%; }
+}
+
+.buscamenu {
+
+    margin-top: 55px;
+    margin-left: 109px;
+    position: absolute;
+    width: 244px;
+
+	input {
+        width: 60%;
+	    background: url("@{img-path}/icon-busca.jpg") #d9e4ed no-repeat;
+	    background-position-x: 92%;
+	    background-position-y: 7px;
+	    border: 0;
+	    border-radius: 30px;
+	    height: 35px;
+	    padding: 0 50px 0 20px;
+		margin: 0 auto;
+
+		@media (@sm) { width: 60%; }
+		@media (@md) { width: 45%; }
+	}
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+.btnmenuxs {
+	font-size: 22px;
+    cursor: pointer;
+    color: #fff;
+    background: #000;
+    margin-left: -25px;
+    padding: 8px 12px;
+    border-radius: 50%;
+}
+
+/*
+ * Topo
+ */
+header { 
+
+.topo {
+	padding: 50px 15px 0;
+
+	@media (@sm) { padding: 50px 15px 0; }
+	@media (@md) { padding: 50px 15px 20px; }
+
+/*LOGO */
+.logo {
+
+	img { border-radius: 50%; }
+}
+/*LOGO */
+
+/* BUSCA */
+.busca {
+
+	text-align: center;
+
+	input {
+	    width: 100%;
+	    background: url("@{img-path}/icon-busca.jpg") #d9e4ed no-repeat;
+	    background-position-x: 92%;
+	    background-position-y: 7px;
+	    border: 0;
+	    border-radius: 30px;
+	    height: 35px;
+	    padding: 0 50px 0 20px;
+		margin: 0 auto;
+
+		@media (@sm) { width: 60%; }
+		@media (@md) { width: 45%; }
+	}
+}
+/* BUSCA */
+
+/* REDES SOCIAIS */
+.redessociais {
+	ul {
+		margin: 0;
+		list-style: none;
+		text-align: right;
+
+		a li {
+			background: #d8d8d8;
+			color: #fff;
+			border-radius: 50%;
+		    padding: 7px 10px;
+		    font-size: 0.9em;
+		    height: 30px;
+		    width: 30px;
+			display: inline-block;
+
+			.transition(0.4s);
+
+			&:hover {
+				background: #ece5d5;
+			}
+
+			@media (@sm) { margin-left: 20px;}
+		}
+	}
+
+		.facebook {
+			background: #495ead;
+		}
+
+		.instagram {
+			background: #b40580;
+		}
+}
+/* REDES SOCIAIS */
+
+/* MENU */
+ .menutopo {
+ 	padding: 50px 0 0;
+
+ 	.navbar-nav {
+ 		width: 100%;
+ 		margin: 0 auto;
+ 		float: none;
+ 		text-align: center;
+
+ 		@media (@sm) { width: 670px; }
+ 		@media (@lg) { width: 801px; }
+ 	}
+
+ 	.navbar-nav>li {
+ 		text-transform: uppercase;
+ 		font-family: 'Montserrat', sans-serif;
+
+
+		@media (@sm) { margin: 0 10px; }
+		@media (@lg) { margin: 0 23px; }
+ 	}
+
+ 	.navbar-nav>li>a {
+ 		color: #2b2b2b;
+ 		letter-spacing: 3px;
+ 		border-bottom: 2px solid #fff;
+ 		.transition(0.4s);
+ 	}
+
+ 	.nav>li>a:focus, .nav>li>a:hover {
+ 		background-color: transparent;
+ 		color: @cor-main;
+ 		border-bottom: 2px solid #d9e4ed;
+ 	}
+ }
+/* MENU */
+}
+
+
+} /*HEADER*/

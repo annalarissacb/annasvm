@@ -1,0 +1,94 @@
+/*
+ * Rodape
+ */
+footer { 
+
+/* TITLE SECTIONS */
+.titlesections {
+	background: url("@{img-path}/bg-line-title.jpg") no-repeat;
+	background-position-y: 8px;
+	margin: 50px 0;
+	width: 100%;
+	height: 20px;
+	color: #2b2b2b;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+
+	@media (@sm) { margin: 100px 0;}
+
+	.left {
+		background: #fff;
+		padding: 0 10px;
+		display: inline-block;
+		padding: 0 20px 0 0;
+		float: left;
+	}
+
+}
+/* TITLE SECTIONS */
+
+/* INSTAGRAM */
+
+.instapost {
+	width: 100%;
+	height: 100%;
+	background: @cor-main;
+	margin-bottom: 30px;
+
+	img { width: 100%; height: auto; .transition(0.4s); position: relative; z-index: 1; }
+
+	.instaicon {
+		position: absolute;
+	    z-index: 2;
+	    width: 90%;
+	    padding-top: 75px;
+	    text-align: center;
+	    font-size: 2em;
+	    height: 100%;
+	    opacity: 0;
+	    .transition(0.4s);
+
+	    &:hover { opacity: 1; }
+	}
+
+	&:hover {
+		img { opacity: 0.2; }
+	}
+
+	a {
+		color: #fff;
+	}
+}
+
+/* INSTAGRAM */
+
+/* MENU FOOTER */
+.menufooter {
+	margin: 70px 0 10px;
+	border-top: @cor-main 2px solid;
+	padding: 20px 0 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+
+	ul {
+	    margin: 0;
+	    padding: 0;
+	    list-style: none;
+	    font-weight: 700;
+
+		li {
+			display: inline-block;
+		    padding: 10px 13px;
+
+			@media (@sm) { padding: 0 15px; }
+
+			a {
+				color: #c4c4c4;
+			}
+		}
+	}
+}
+/* MENU FOOTER */
+
+}
