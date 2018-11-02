@@ -87,7 +87,7 @@
     			<div class="col-xs-12 col-sm-8">
 
 	                <div class="thumbdestaque">
-	                    <a href="#">
+	                    <a href="single.php">
 	                        <img src="img/img-post-2.jpg">
 	                    </a>
 	                </div>
@@ -99,7 +99,7 @@
 	                </div>
 
 	                <h3>
-	                	<a href="#">
+	                	<a href="single.php">
 	                		Lorem Ipsum is simply dummy text of the printing and typesetting industry
 	                	</a>
 	            	</h3>
@@ -114,7 +114,7 @@
 
     				<!-- POST 1 -->
 	                <div class="thumbdestaque">
-	                    <a href="#">
+	                    <a href="single.php">
 	                        <img src="img/sidepost-image.jpg">
 	                    </a>
 	                </div>
@@ -271,7 +271,7 @@
 	                </div>
 
 	                <h3>
-	                	<a href="#">
+	                	<a href="single.php">
 	                		Lorem Ipsum is simply dummy text of the printing and typesetting industry
 	                	</a>
 	            	</h3>

@@ -65,7 +65,7 @@
         <div class="row">
             <!-- LOGO -->
             <div class="col-xs-3 logo">
-                <a href="#">
+                <a href="index.php">
                     <img src="https://via.placeholder.com/40" alt="Logotipo do site">
                 </a>
             </div>

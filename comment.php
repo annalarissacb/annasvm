@@ -73,27 +73,27 @@
 		    				<span>Leave a reply</span>
 		    				<span class="sub">Your email adress will not be published.</span>
 
-							<form action="comment.php" action="#" class="form-horizontal">
+							<form name="comentarios" class="form-horizontal">
 							  
 							  <div class="form-group">
 							    <div class="col-sm-12">
-						      		<textarea name="comentario" class="form-control" rows="3" placeholder="Comment" required/></textarea>
+						      		<textarea class="form-control" rows="3" placeholder="Comment"></textarea>
 							    </div>
 							  </div>
 
 							  <div class="form-group">
 							    <div class="col-sm-6 marginform">
-						      		<input name="Nome" type="name" class="form-control" id="inputnome" placeholder="Name" required/>
+						      		<input type="name" class="form-control" id="inputnome" placeholder="Name">
 							    </div>
 
 							    <div class="col-sm-6">
-						      		<input name="email" type="email" class="form-control" id="inputemail" placeholder="Email" required/>
+						      		<input type="email" class="form-control" id="inputemail" placeholder="Email">
 							    </div>
 							  </div>
 
 							  <div class="form-group">
 							    <div class="col-sm-10">
-							      <button name="enviar" type="submit" class="btn btn-default">Post a comment</button>
+							      <button type="submit" class="btn btn-default">Post a comment</button>
 							    </div>
 							  </div>
 							</form>
