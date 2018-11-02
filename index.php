@@ -27,7 +27,7 @@
 
 				<div class="row secondaryposts">
 
-					<a href="#">
+					<a href="single.php">
 						<div class="col-xs-6 col-sm-6 col-md-3">
 							<div class="single2post">
 								Lorem Ipsum is simply dummy text of the printing
@@ -35,7 +35,7 @@
 						</div>
 					</a>
 
-					<a href="#">
+					<a href="single.php">
 						<div class="col-xs-6 col-sm-6 col-md-3">
 							<div class="single2post">
 								Lorem Ipsum is simply dummy text of the printing
@@ -43,7 +43,7 @@
 						</div>
 					</a>
 
-					<a href="#">
+					<a href="single.php">
 						<div class="col-xs-6 col-sm-6 col-md-3 hidden-xs">
 							<div class="single2post">
 								Lorem Ipsum is simply dummy text of the printing
@@ -51,7 +51,7 @@
 						</div>
 					</a>
 					
-					<a href="#">
+					<a href="single.php">
 						<div class="col-xs-6 col-sm-6 col-md-3 hidden-xs">
 							<div class="single2post">
 								Lorem Ipsum is simply dummy text of the printing
@@ -126,7 +126,7 @@
 	                </div>
 
 	                <h3>
-	                	<a href="#">
+	                	<a href="single.php">
 	                		Lorem Ipsum is simply dummy text of the printing 
 	                	</a>
 	            	</h3>
@@ -136,7 +136,7 @@
 
     				<!-- POST 2 -->
 	                <h3 class="sectitle">
-	                	<a href="#">
+	                	<a href="single.php">
 	                		Lorem Ipsum is simply dummy text of the printing 
 	                	</a>
 	            	</h3>
@@ -170,7 +170,7 @@
 
     			<div class="col-xs-12 col-sm-4">
 	                <div class="thumbdestaque">
-	                    <a href="#">
+	                    <a href="single.php">
 	                        <img src="img/sidepost-image-2.jpg">
 	                    </a>
 	                </div>
@@ -192,7 +192,7 @@
 
     			<div class="col-xs-12 col-sm-4">
 	                <div class="thumbdestaque">
-	                    <a href="#">
+	                    <a href="single.php">
 	                        <img src="img/sidepost-image-3.jpg">
 	                    </a>
 	                </div>
@@ -204,7 +204,7 @@
 	                </div>
 
 	                <h3>
-	                	<a href="#">
+	                	<a href="single.php">
 	                		Lorem Ipsum is simply dummy text of the printing 
 	                	</a>
 	            	</h3>
@@ -214,7 +214,7 @@
 
     			<div class="col-xs-12 col-sm-4">
 	                <div class="thumbdestaque">
-	                    <a href="#">
+	                    <a href="single.php">
 	                        <img src="img/sidepost-image-4.jpg">
 	                    </a>
 	                </div>
@@ -226,7 +226,7 @@
 	                </div>
 
 	                <h3>
-	                	<a href="#">
+	                	<a href="single.php">
 	                		Lorem Ipsum is simply dummy text of the printing 
 	                	</a>
 	            	</h3>
@@ -259,7 +259,7 @@
     			<div class="col-xs-12 col-sm-8">
 
 	                <div class="thumbdestaque">
-	                    <a href="#">
+	                    <a href="single.php">
 	                        <img src="img/img-post-3.jpg">
 	                    </a>
 	                </div>
@@ -286,7 +286,7 @@
 
     				<!-- POST 1 -->
 	                <div class="thumbdestaque">
-	                    <a href="#">
+	                    <a href="single.php">
 	                        <img src="img/sidepost-image-5.jpg">
 	                    </a>
 	                </div>
@@ -298,7 +298,7 @@
 	                </div>
 
 	                <h3>
-	                	<a href="#">
+	                	<a href="single.php">
 	                		Lorem Ipsum is simply dummy text of the printing 
 	                	</a>
 	            	</h3>
@@ -324,7 +324,7 @@
 
 								<div class="col-xs-12 col-sm-11">
 									<div class="posttag"></div>
-									<h2><a href="#">Lorem Ipsum is simply dummy text of the printing and typesetting industry</a></h2>
+									<h2><a href="single.php">Lorem Ipsum is simply dummy text of the printing and typesetting industry</a></h2>
 									<div class="postinfos">Autor do post | 8 min atrás</div>
 								</div>
 
