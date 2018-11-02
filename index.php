@@ -67,7 +67,7 @@
     	<div class="clearfix"></div>
 
     	<!-- DAILY POSTS -->
-    	<div class="container">
+    	<div class="container hideme">
     		<div class="row dailyposts">
 
     			<div class="col-xs-12">
@@ -151,7 +151,7 @@
     	<!-- DAILY POSTS -->
 
     	<!-- POPULAR POSTS -->
-    	<div class="container">
+    	<div class="container hideme">
 
     			<div class="col-xs-12">
     				<div class="titlesections">
@@ -240,7 +240,7 @@
 
     	<!-- DAILY POSTS SECTION 2 -->
     	<div class="container">
-    		<div class="row dailyposts">
+    		<div class="row dailyposts hideme">
 
     			<div class="col-xs-12">
     				<div class="titlesections">
@@ -310,7 +310,7 @@
     			<!-- SIDEBAR DAILY -->
     		</div>
 
-    		<div class="row">
+    		<div class="row hideme">
     			<div class="col-xs-12">
     				
 			    	<div class="minibanner">
